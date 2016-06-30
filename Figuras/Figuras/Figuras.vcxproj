@@ -139,7 +139,7 @@
     <ClCompile Include="Figuras.cpp" />
     <ClCompile Include="Listas.cpp" />
     <ClCompile Include="MyForm.cpp" />
-    <ClCompile Include="TablaHashcpp.cpp" />
+    <ClCompile Include="TablaHash.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Figuras.h" />

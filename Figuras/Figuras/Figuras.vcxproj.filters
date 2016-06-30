@@ -18,13 +18,13 @@
     <ClCompile Include="MyForm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TablaHashcpp.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Listas.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Figuras.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TablaHash.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
