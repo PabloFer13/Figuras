@@ -501,7 +501,7 @@ private: System::Windows::Forms::Label^  Par_Height_Label;
 			this->Par_Height_Label->Name = L"Par_Height_Label";
 			this->Par_Height_Label->Size = System::Drawing::Size(78, 17);
 			this->Par_Height_Label->TabIndex = 89;
-			this->Par_Height_Label->Text = L"Posicion Y:";
+			this->Par_Height_Label->Text = L"Altura";
 			this->Par_Height_Label->Visible = false;
 			// 
 			// Par_Width_TextBox
@@ -519,7 +519,7 @@ private: System::Windows::Forms::Label^  Par_Height_Label;
 			this->Par_Width_Label->Name = L"Par_Width_Label";
 			this->Par_Width_Label->Size = System::Drawing::Size(78, 17);
 			this->Par_Width_Label->TabIndex = 87;
-			this->Par_Width_Label->Text = L"Posicion Y:";
+			this->Par_Width_Label->Text = L"Ancho";
 			this->Par_Width_Label->Visible = false;
 			// 
 			// Par_Button
@@ -591,7 +591,7 @@ private: System::Windows::Forms::Label^  Par_Height_Label;
 			this->Elip_Width_Label->Name = L"Elip_Width_Label";
 			this->Elip_Width_Label->Size = System::Drawing::Size(78, 17);
 			this->Elip_Width_Label->TabIndex = 79;
-			this->Elip_Width_Label->Text = L"Posicion Y:";
+			this->Elip_Width_Label->Text = L"Ancho";
 			this->Elip_Width_Label->Visible = false;
 			// 
 			// Elip_Button
@@ -655,7 +655,7 @@ private: System::Windows::Forms::Label^  Par_Height_Label;
 			this->Elip_Height_Label->Name = L"Elip_Height_Label";
 			this->Elip_Height_Label->Size = System::Drawing::Size(78, 17);
 			this->Elip_Height_Label->TabIndex = 72;
-			this->Elip_Height_Label->Text = L"Posicion Y:";
+			this->Elip_Height_Label->Text = L"Alto";
 			this->Elip_Height_Label->Visible = false;
 			// 
 			// Circ_Button
@@ -670,7 +670,7 @@ private: System::Windows::Forms::Label^  Par_Height_Label;
 			// 
 			// Circ_R_TextBox
 			// 
-			this->Circ_R_TextBox->Location = System::Drawing::Point(221, 105);
+			this->Circ_R_TextBox->Location = System::Drawing::Point(222, 93);
 			this->Circ_R_TextBox->Name = L"Circ_R_TextBox";
 			this->Circ_R_TextBox->Size = System::Drawing::Size(122, 22);
 			this->Circ_R_TextBox->TabIndex = 70;
@@ -679,7 +679,7 @@ private: System::Windows::Forms::Label^  Par_Height_Label;
 			// Circ_R_Label
 			// 
 			this->Circ_R_Label->AutoSize = true;
-			this->Circ_R_Label->Location = System::Drawing::Point(221, 85);
+			this->Circ_R_Label->Location = System::Drawing::Point(224, 73);
 			this->Circ_R_Label->Name = L"Circ_R_Label";
 			this->Circ_R_Label->Size = System::Drawing::Size(45, 17);
 			this->Circ_R_Label->TabIndex = 69;
@@ -699,7 +699,7 @@ private: System::Windows::Forms::Label^  Par_Height_Label;
 			// Circ_X_Label
 			// 
 			this->Circ_X_Label->AutoSize = true;
-			this->Circ_X_Label->Location = System::Drawing::Point(221, 128);
+			this->Circ_X_Label->Location = System::Drawing::Point(224, 128);
 			this->Circ_X_Label->Name = L"Circ_X_Label";
 			this->Circ_X_Label->Size = System::Drawing::Size(78, 17);
 			this->Circ_X_Label->TabIndex = 67;
@@ -753,7 +753,7 @@ private: System::Windows::Forms::Label^  Par_Height_Label;
 			// IrrPol_VY_Label
 			// 
 			this->IrrPol_VY_Label->AutoSize = true;
-			this->IrrPol_VY_Label->Location = System::Drawing::Point(224, 191);
+			this->IrrPol_VY_Label->Location = System::Drawing::Point(212, 191);
 			this->IrrPol_VY_Label->Name = L"IrrPol_VY_Label";
 			this->IrrPol_VY_Label->Size = System::Drawing::Size(78, 17);
 			this->IrrPol_VY_Label->TabIndex = 61;
@@ -763,7 +763,7 @@ private: System::Windows::Forms::Label^  Par_Height_Label;
 			// IrrPol_VX_Label
 			// 
 			this->IrrPol_VX_Label->AutoSize = true;
-			this->IrrPol_VX_Label->Location = System::Drawing::Point(221, 128);
+			this->IrrPol_VX_Label->Location = System::Drawing::Point(212, 128);
 			this->IrrPol_VX_Label->Name = L"IrrPol_VX_Label";
 			this->IrrPol_VX_Label->Size = System::Drawing::Size(78, 17);
 			this->IrrPol_VX_Label->TabIndex = 60;
@@ -772,7 +772,7 @@ private: System::Windows::Forms::Label^  Par_Height_Label;
 			// 
 			// IrrPol_VY_TextBox
 			// 
-			this->IrrPol_VY_TextBox->Location = System::Drawing::Point(221, 211);
+			this->IrrPol_VY_TextBox->Location = System::Drawing::Point(212, 211);
 			this->IrrPol_VY_TextBox->Name = L"IrrPol_VY_TextBox";
 			this->IrrPol_VY_TextBox->Size = System::Drawing::Size(122, 22);
 			this->IrrPol_VY_TextBox->TabIndex = 59;
@@ -780,7 +780,7 @@ private: System::Windows::Forms::Label^  Par_Height_Label;
 			// 
 			// IrrPol_VX_TextBox
 			// 
-			this->IrrPol_VX_TextBox->Location = System::Drawing::Point(221, 148);
+			this->IrrPol_VX_TextBox->Location = System::Drawing::Point(212, 148);
 			this->IrrPol_VX_TextBox->Name = L"IrrPol_VX_TextBox";
 			this->IrrPol_VX_TextBox->Size = System::Drawing::Size(122, 22);
 			this->IrrPol_VX_TextBox->TabIndex = 58;
@@ -971,9 +971,9 @@ private: System::Windows::Forms::Label^  Par_Height_Label;
 			this->Rect_Height_Label->AutoSize = true;
 			this->Rect_Height_Label->Location = System::Drawing::Point(320, 191);
 			this->Rect_Height_Label->Name = L"Rect_Height_Label";
-			this->Rect_Height_Label->Size = System::Drawing::Size(78, 17);
+			this->Rect_Height_Label->Size = System::Drawing::Size(49, 17);
 			this->Rect_Height_Label->TabIndex = 38;
-			this->Rect_Height_Label->Text = L"Posicion Y:";
+			this->Rect_Height_Label->Text = L"Altura:";
 			this->Rect_Height_Label->Visible = false;
 			// 
 			// Rect_Button
@@ -1007,9 +1007,9 @@ private: System::Windows::Forms::Label^  Par_Height_Label;
 			this->Rect_Width_Label->AutoSize = true;
 			this->Rect_Width_Label->Location = System::Drawing::Point(320, 128);
 			this->Rect_Width_Label->Name = L"Rect_Width_Label";
-			this->Rect_Width_Label->Size = System::Drawing::Size(78, 17);
+			this->Rect_Width_Label->Size = System::Drawing::Size(52, 17);
 			this->Rect_Width_Label->TabIndex = 34;
-			this->Rect_Width_Label->Text = L"Posicion X:";
+			this->Rect_Width_Label->Text = L"Ancho:";
 			this->Rect_Width_Label->Visible = false;
 			// 
 			// Rect_Y_Label
@@ -1214,6 +1214,7 @@ private: System::Windows::Forms::Label^  Par_Height_Label;
 			this->OP3_RButton->Text = L"radioButton7";
 			this->OP3_RButton->UseVisualStyleBackColor = true;
 			this->OP3_RButton->Visible = false;
+			this->OP3_RButton->CheckedChanged += gcnew System::EventHandler(this, &MyForm::OP3_RButton_CheckedChanged);
 			// 
 			// OP2_RButton
 			// 
@@ -1226,6 +1227,7 @@ private: System::Windows::Forms::Label^  Par_Height_Label;
 			this->OP2_RButton->Text = L"radioButton6";
 			this->OP2_RButton->UseVisualStyleBackColor = true;
 			this->OP2_RButton->Visible = false;
+			this->OP2_RButton->CheckedChanged += gcnew System::EventHandler(this, &MyForm::OP2_RButton_CheckedChanged);
 			// 
 			// OP1_RButton
 			// 
@@ -1238,6 +1240,7 @@ private: System::Windows::Forms::Label^  Par_Height_Label;
 			this->OP1_RButton->Text = L"radioButton5";
 			this->OP1_RButton->UseVisualStyleBackColor = true;
 			this->OP1_RButton->Visible = false;
+			this->OP1_RButton->CheckedChanged += gcnew System::EventHandler(this, &MyForm::OP1_RButton_CheckedChanged);
 			// 
 			// panel3
 			// 
@@ -1260,6 +1263,7 @@ private: System::Windows::Forms::Label^  Par_Height_Label;
 			this->Beiz_RButton->TabStop = true;
 			this->Beiz_RButton->Text = L"Beizer";
 			this->Beiz_RButton->UseVisualStyleBackColor = true;
+			this->Beiz_RButton->CheckedChanged += gcnew System::EventHandler(this, &MyForm::Beiz_RButton_CheckedChanged);
 			// 
 			// Conic_RButton
 			// 
@@ -1338,8 +1342,15 @@ private: System::Windows::Forms::Label^  Par_Height_Label;
 
 		}
 #pragma endregion
-	private: System::Void label2_Click(System::Object^  sender, System::EventArgs^  e) {
-	}
+private: Void TurnOff_OPButtons() {
+	OP1_RButton->Visible = false;
+	OP2_RButton->Visible = false;
+	OP3_RButton->Visible = false;
+	OP4_RButton->Visible = false;
+	OP1_RButton->Checked = false;
+	OP2_RButton->Checked = false;
+	OP3_RButton->Checked = false;
+}
 private: System::Void RegPol_RButton_CheckedChanged(System::Object^  sender, System::EventArgs^  e) {
 	if (RegPol_RButton->Checked == false) {
 		RegPol_Button->Visible = false;
@@ -1361,10 +1372,7 @@ private: System::Void RegPol_RButton_CheckedChanged(System::Object^  sender, Sys
 		RegPol_Label->Visible = true;
 		RegPol_X_TextBox->Visible = true;
 		RegPol_X_Label->Visible = true;
-		OP1_RButton->Visible = false;
-		OP2_RButton->Visible = false;
-		OP3_RButton->Visible = false;
-		OP4_RButton->Visible = false;
+		TurnOff_OPButtons();
 	}
 }
 private: System::Void IrrPol_RButton_CheckedChanged(System::Object^  sender, System::EventArgs^  e) {
@@ -1413,19 +1421,236 @@ private: System::Void IrrPol_RButton_CheckedChanged(System::Object^  sender, Sys
 		OP2_RButton->Visible = true;
 		OP3_RButton->Text = "Personalizado";
 		OP3_RButton->Visible = true;
+		OP1_RButton->Checked = false;
+		OP2_RButton->Checked = false;
+		OP3_RButton->Checked = false;
 	}
 }
 private: System::Void Conic_RButton_CheckedChanged(System::Object^  sender, System::EventArgs^  e) {
 	if (Conic_RButton->Checked == false) {
-		//
+		Circ_Button->Visible = false;
+		Circ_R_TextBox->Visible = false;
+		Circ_R_Label->Visible = false;
+		Circ_Y_Label->Visible = false;
+		Circ_X_Label->Visible = false;
+		Circ_Y_TextBox->Visible = false;
+		Circ_X_TextBox->Visible = false;
+
+		Par_Width_TextBox->Visible = false;
+		Par_Width_Label->Visible = false;
+		Par_Button->Visible = false;
+		Par_Y_Label->Visible = false;
+		Par_X_Label->Visible = false;
+		Par_Y_TextBox->Visible = false;
+		Par_X_TextBox->Visible = false;
+		Par_Height_TextBox->Visible = false;
+		Par_Height_Label->Visible = false;
+
+		Elip_Width_TextBox->Visible = false;
+		Elip_Width_Label->Visible = false;
+		Elip_Button->Visible = false;
+		Elip_Y_Label->Visible = false;
+		Elip_X_Label->Visible = false;
+		Elip_Y_TextBox->Visible = false;
+		Elip_X_TextBox->Visible = false;
+		Elip_Height_TextBox->Visible = false;
+		Elip_Height_Label->Visible = false;
 	}
 	else {
 		OP1_RButton->Text = "Circulo";
-		OP2_RButton->Text = "Prabola";
+		OP2_RButton->Text = "Parabola";
 		OP3_RButton->Text = "Elipse";
 		OP1_RButton->Visible = true;
 		OP2_RButton->Visible = true;
 		OP3_RButton->Visible = true;
+		OP1_RButton->Checked = false;
+		OP2_RButton->Checked = false;
+		OP3_RButton->Checked = false;
+	}
+}
+private: System::Void Beiz_RButton_CheckedChanged(System::Object^  sender, System::EventArgs^  e) {
+	if (Beiz_RButton->Checked == false) {
+		Beiz_NVert_TextBox->Visible = false;
+		Beiz_NVert_Label->Visible = false;
+		Beiz_VertY_Label->Visible = false;
+		Beiz_VertX_Label->Visible = false;
+		Beiz_VertY_TextBox->Visible = false;
+		Beiz_VertX_TextBox->Visible = false;
+		Beiz_Curva_RButton->Visible = false;
+		Beiz_Recta_RButton->Visible = false;
+		Beiz_Button->Visible = false;
+	}
+	else {
+		Beiz_NVert_TextBox->Visible = true;
+		Beiz_NVert_Label->Visible = true;
+		Beiz_VertY_Label->Visible = true;
+		Beiz_VertX_Label->Visible = true;
+		Beiz_VertY_TextBox->Visible = true;
+		Beiz_VertX_TextBox->Visible = true;
+		Beiz_Curva_RButton->Visible = true;
+		Beiz_Recta_RButton->Visible = true;
+		Beiz_Button->Visible = true;
+		TurnOff_OPButtons();
+	}
+}
+private: System::Void OP1_RButton_CheckedChanged(System::Object^  sender, System::EventArgs^  e) {
+	if (OP1_RButton->Checked == true) {
+		if (IrrPol_RButton->Checked == true) {
+			V1_Triang_X_Label->Visible = true;
+			V3_Trian_Y_TextBox->Visible = true;
+			V2_Trian_Y_TextBox->Visible = true;
+			V1_Trian_Y_TextBox->Visible = true;
+			V3_Trian_X_TextBox->Visible = true;
+			V2_Trian_X_TextBox->Visible = true;
+			V3_Triang_Y_Label->Visible = true;
+			V3_Triang_X_Label->Visible = true;
+			V2_Triang_Y_Label->Visible = true;
+			V2_Triang_X_Label->Visible = true;
+			V1_Triang_Y_Label->Visible = true;
+			V3_Triang_Label->Visible = true;
+			V2_Triang_Label->Visible = true;
+			V1_Triang_Label->Visible = true;
+			V1_Trian_X_TextBox->Visible = true;
+			Triang_Button->Visible = true;
+		}
+		else if (Conic_RButton->Checked == true) {
+			Circ_Button->Visible = true;
+			Circ_R_TextBox->Visible = true;
+			Circ_R_Label->Visible = true;
+			Circ_Y_Label->Visible = true;
+			Circ_X_Label->Visible = true;
+			Circ_Y_TextBox->Visible = true;
+			Circ_X_TextBox->Visible = true;
+		}
+	}
+	else {
+		if (IrrPol_RButton->Checked == true) {
+			V1_Triang_X_Label->Visible = false;
+			V3_Trian_Y_TextBox->Visible = false;
+			V2_Trian_Y_TextBox->Visible = false;
+			V1_Trian_Y_TextBox->Visible = false;
+			V3_Trian_X_TextBox->Visible = false;
+			V2_Trian_X_TextBox->Visible = false;
+			V3_Triang_Y_Label->Visible = false;
+			V3_Triang_X_Label->Visible = false;
+			V2_Triang_Y_Label->Visible = false;
+			V2_Triang_X_Label->Visible = false;
+			V1_Triang_Y_Label->Visible = false;
+			V3_Triang_Label->Visible = false;
+			V2_Triang_Label->Visible = false;
+			V1_Triang_Label->Visible = false;
+			V1_Trian_X_TextBox->Visible = false;
+			Triang_Button->Visible = false;
+		}
+		else if (Conic_RButton->Checked == true) {
+			Circ_Button->Visible = false;
+			Circ_R_TextBox->Visible = false;
+			Circ_R_Label->Visible = false;
+			Circ_Y_Label->Visible = false;
+			Circ_X_Label->Visible = false;
+			Circ_Y_TextBox->Visible = false;
+			Circ_X_TextBox->Visible = false;
+		}
+	}
+}
+private: System::Void OP2_RButton_CheckedChanged(System::Object^  sender, System::EventArgs^  e) {
+	if (OP2_RButton->Checked == true) {
+		if (IrrPol_RButton->Checked == true) {
+			Rect_Size_Label->Visible = true;
+			Rect_Height_TextBox->Visible = true;
+			Rect_Height_Label->Visible = true;
+			Rect_Button->Visible = true;
+			Rect_Y_TextBox->Visible = true;
+			Rect_Width_TextBox->Visible = true;
+			Rect_Width_Label->Visible = true;
+			Rect_Y_Label->Visible = true;
+			Rec_Pos_Label->Visible = true;
+			Rect_X_TextBox->Visible = true;
+			Rec_XLabel->Visible = true;
+		}
+		else if (Conic_RButton->Checked == true) {
+			Par_Width_TextBox->Visible = true;
+			Par_Width_Label->Visible = true;
+			Par_Button->Visible = true;
+			Par_Y_Label->Visible = true;
+			Par_X_Label->Visible = true;
+			Par_Y_TextBox->Visible = true;
+			Par_X_TextBox->Visible = true;
+			Par_Height_TextBox->Visible = true;
+			Par_Height_Label->Visible = true;
+		}
+	}
+	else {
+		if (IrrPol_RButton->Checked == true) {
+			Rect_Size_Label->Visible = false;
+			Rect_Height_TextBox->Visible = false;
+			Rect_Height_Label->Visible = false;
+			Rect_Button->Visible = false;
+			Rect_Y_TextBox->Visible = false;
+			Rect_Width_TextBox->Visible = false;
+			Rect_Width_Label->Visible = false;
+			Rect_Y_Label->Visible = false;
+			Rec_Pos_Label->Visible = false;
+			Rect_X_TextBox->Visible = false;
+			Rec_XLabel->Visible = false;
+		}
+		else if (Conic_RButton->Checked == true) {
+			Par_Width_TextBox->Visible = false;
+			Par_Width_Label->Visible = false;
+			Par_Button->Visible = false;
+			Par_Y_Label->Visible = false;
+			Par_X_Label->Visible = false;
+			Par_Y_TextBox->Visible = false;
+			Par_X_TextBox->Visible = false;
+			Par_Height_TextBox->Visible = false;
+			Par_Height_Label->Visible = false;
+		}
+	}
+}
+private: System::Void OP3_RButton_CheckedChanged(System::Object^  sender, System::EventArgs^  e) {
+	if (OP3_RButton->Checked == true) {
+		if (IrrPol_RButton->Checked == true) {
+			IrrPol_Button->Visible = true;
+			IrrPol_NV_TextBox->Visible = true;
+			IrrPol_NV_Label->Visible = true;
+			IrrPol_VY_Label->Visible = true;
+			IrrPol_VX_Label->Visible = true;
+			IrrPol_VY_TextBox->Visible = true;
+			IrrPol_VX_TextBox->Visible = true;
+		}
+		else if (Conic_RButton->Checked == true) {
+			Elip_Width_TextBox->Visible = true;
+			Elip_Width_Label->Visible = true;
+			Elip_Button->Visible = true;
+			Elip_Y_Label->Visible = true;
+			Elip_X_Label->Visible = true;
+			Elip_Y_TextBox->Visible = true;
+			Elip_X_TextBox->Visible = true;
+			Elip_Height_TextBox->Visible = true;
+			Elip_Height_Label->Visible = true;
+		}
+	}
+	else {
+		if (IrrPol_RButton->Checked == true) {
+			IrrPol_Button->Visible = false;
+			IrrPol_NV_TextBox->Visible = false;
+			IrrPol_NV_Label->Visible = false;
+			IrrPol_VY_Label->Visible = false;
+			IrrPol_VX_Label->Visible = false;
+			IrrPol_VY_TextBox->Visible = false;
+			IrrPol_VX_TextBox->Visible = false;
+		}
+		else if (Conic_RButton->Checked == true) {
+			Elip_Width_TextBox->Visible = false;
+			Elip_Width_Label->Visible = false;
+			Elip_Button->Visible = false;
+			Elip_Y_Label->Visible = false;
+			Elip_X_Label->Visible = false;
+			Elip_Y_TextBox->Visible = false;
+			Elip_X_TextBox->Visible = false;
+			Elip_Height_TextBox->Visible = false;
+			Elip_Height_Label->Visible = false;
+		}
 	}
 }
 };
